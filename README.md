@@ -22,3 +22,24 @@ This is a simple **Employee Management System** built with **Spring Boot**, **Sp
 | Spring Data JPA| ORM for database operations             |
 | MySQL          | Relational Database                     |
 | Gradle         | Build and Dependency Management         |
+
+## Project Structure
+```plaintext
+src/
+└── main/
+    ├── java/
+    │   └── com/
+    │       └── example/
+    │           └── employeemanagement/
+    │               ├── EmployeeManagementApplication.java
+    │               ├── model/
+    │               │   └── Employee.java
+    │               ├── repository/
+    │               │   └── EmployeeRepository.java
+    │               ├── service/
+    │               │   └── EmployeeService.java
+    │               └── controller/
+    │                   └── EmployeeController.java
+    └── resources/
+        ├── application.properties
+        └── static/ (optional)
