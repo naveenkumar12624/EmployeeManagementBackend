@@ -41,5 +41,5 @@ src/
     │               └── controller/
     │                   └── EmployeeController.java
     └── resources/
-        ├── application.properties
-        └── static/ (optional)
+        └── application.properties
+     
